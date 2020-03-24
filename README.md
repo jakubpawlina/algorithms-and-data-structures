@@ -11,3 +11,4 @@ Currently implemented algorithms:
 - [Multiplying Matrixes](multiplying_matrixes.cpp)
 - [Turn direction check (using Dot Product)](turn_direction.cpp)
 - [Sum on interval (using basic Segment Tree)](interval_sum_ST.cpp)
+- [Graph components number counting (using DFS)](graph_components_number_DFS.cpp)
