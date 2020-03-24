@@ -10,3 +10,4 @@ Currently implemented algorithms:
 - [Longest Common Subsequence (LCS)](longest_common_subsequence.cpp)
 - [Multiplying Matrixes](multiplying_matrixes.cpp)
 - [Turn direction check (using Dot Product)](turn_direction.cpp)
+- [Sum on interval (using basic Segment Tree)](interval_sum_ST.cpp)
