@@ -1,3 +1,6 @@
+// Author: Jakub Pawlina
+// Algorithm: KMP (Knuth-Morris-Pratt)
+
 #include <bits/stdc++.h>
 
 void kmp(std::string text, std::string pattern)
