@@ -1,3 +1,7 @@
+// Author: Jakub Pawlina
+// Data Strucure: Find-Union (Disjoint-set)
+
+
 #pragma GCC optimize("O3")
 #include <bits/stdc++.h>
 
