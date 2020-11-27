@@ -13,6 +13,15 @@ int upper_bound(int array[], int size, int value)
 	return (begin == size) ? -1 : begin;
 }
 
+
+int upper_bound_recursive(int array[], int size, int begin, int end, int value)
+{
+	if (begin > end) return (begin == size) ? -1 : begin;
+	int midst = (begin + end) >> 1;
+	if (value >= array[midst]) return upper_bound_recursive(array, size, midst + 1, end, value);
+	else return upper_bound_recursive(array, size, begin, midst - 1, value);
+}
+
 int input[1000006];
 
 int32_t main()
