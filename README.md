@@ -12,6 +12,7 @@ Currently implemented algorithms:
 - [Longest Common Subsequence (LCS)](longest_common_subsequence.cpp)
 - [Lower bound](lower_bound.cpp)
 - [Multiplying Matrixes](multiplying_matrixes.cpp)
+- [Reverse Polish Notation](reverse-polish-notation.cpp)
 - [Sum on interval (using basic Segment Tree)](interval_sum_ST.cpp)
 - [Turn direction check (using Dot Product)](turn_direction.cpp)
 - [Upper bound](upper_bound.cpp)

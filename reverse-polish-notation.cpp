@@ -1,4 +1,4 @@
-// Author: Jakub Pawlin
+// Author: Jakub Pawlina
 // Algorithm: Reverse Polish Notation (computing)
 
 #pragma GCC optimize("O3")

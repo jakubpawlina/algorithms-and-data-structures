@@ -1,3 +1,6 @@
+// Author: Jakub Pawlina
+// Algorithm: Lower Bound
+
 #pragma GCC optimize("O3")
 #include <bits/stdc++.h>
 
