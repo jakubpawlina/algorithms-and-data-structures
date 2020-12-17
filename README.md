@@ -4,6 +4,7 @@ Base of sample implementations of useful algorithms and data structures in C++.
 Currently implemented algorithms:
 - [Binsearch](binsearch_algorithms.cpp)
 - [Caesar Cipher](caesar_cipher.cpp)
+- [Change-making problem](change-making.cpp)
 - [Fast Power Modulo](fast_power_modulo.cpp)
 - [Fibonacci Numbers using Matrix](fibonacci_on_matrix.cpp)
 - [Graph components number counting (using DFS)](graph_components_number_DFS.cpp)
