@@ -1,5 +1,5 @@
 // Author: Jakub Pawlina
-// Algorithm : Interpolation Search
+// Algorithm: Interpolation Search
 
 #include <bits/stdc++.h>
 

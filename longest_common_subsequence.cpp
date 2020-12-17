@@ -1,7 +1,6 @@
 // Author: Jakub Pawlina
 // Algorithm: LCS (Longest Common Subsequence)
 
-
 #pragma GCC optimize("O3")
 #include <bits/stdc++.h>
 

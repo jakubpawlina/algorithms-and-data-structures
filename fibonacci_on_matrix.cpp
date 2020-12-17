@@ -1,5 +1,5 @@
 // Author: Jakub Pawlina
-// Algorithm : Computing Fibonacci numbers using matrix
+// Algorithm: Computing Fibonacci numbers using matrix
 
 #include <bits/stdc++.h>
 

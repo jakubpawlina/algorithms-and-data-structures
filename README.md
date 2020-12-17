@@ -11,9 +11,13 @@ Currently implemented algorithms:
 - [Interpolation Search](interpolation_search.cpp)
 - [Knuth-Morris-Pratt (KMP)](kmp.cpp)
 - [Longest Common Subsequence (LCS)](longest_common_subsequence.cpp)
+- [Lower bound](lower_bound.cpp)
 - [Multiplying Matrixes](multiplying_matrixes.cpp)
+- [Reverse Polish Notation](reverse_polish_notation.cpp)
+- [Sieve of Eratosthenes](sieve_of_eratosthenes.cpp)
 - [Sum on interval (using basic Segment Tree)](interval_sum_ST.cpp)
 - [Turn direction check (using Dot Product)](turn_direction.cpp)
+- [Upper bound](upper_bound.cpp)
 
 Currently implemented data structures
 - [Find-Union (Disjoint-set)](find-union.cpp)
