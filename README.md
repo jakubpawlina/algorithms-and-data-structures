@@ -10,6 +10,7 @@ Currently implemented algorithms:
 - [Fibonacci Numbers using Matrix](fibonacci_on_matrix.cpp)
 - [Graph components number counting (using DFS)](graph_components_number_DFS.cpp)
 - [Interpolation Search](interpolation_search.cpp)
+- [Interval Scheduling Problem](interval_scheduling.cpp)
 - [Kadane's Algorithm (maximum subarray sum)](maximum_subarray_sum.cpp)
 - [Knapsack Problem](knapsack_problem.cpp)
 - [Knuth-Morris-Pratt (KMP)](kmp.cpp)
