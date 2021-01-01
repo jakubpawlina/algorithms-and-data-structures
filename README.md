@@ -9,6 +9,7 @@ Currently implemented algorithms:
 - [Fast Power Modulo](fast_power_modulo.cpp)
 - [Fibonacci Numbers using Matrix](fibonacci_on_matrix.cpp)
 - [Graph components number counting (using DFS)](graph_components_number_DFS.cpp)
+- [Huffman Coding](huffman-coding.cpp)
 - [Interpolation Search](interpolation_search.cpp)
 - [Interval Scheduling Problem](interval_scheduling.cpp)
 - [Kadane's Algorithm (maximum subarray sum)](maximum_subarray_sum.cpp)
