@@ -1,3 +1,6 @@
+// Author: Jakub Pawlina
+// Algorithm: Interval Scheduling Problem
+
 #pragma GCC optimize("O3")
 #include <bits/stdc++.h>
 
