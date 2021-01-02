@@ -4,7 +4,7 @@
 #pragma GCC optimize("O3")
 #include <bits/stdc++.h>
 
-int minimum_banknotes(int denominations[], int denominations_number, int withdrawal)
+int minimum_banknotes(int denominations[], int denominations_number, int withdrawal, int *first)
 {
 	int result[withdrawal + 1];
 	result[0] = 0;
@@ -21,12 +21,23 @@ int minimum_banknotes(int denominations[], int denominations_number, int withdra
 				if (current_result != INT_MAX && current_result + 1 < result[amount])
 				{
 					result[amount] = current_result + 1;
+					first[amount] = denominations[denomination];
 				}
 			}
 		}
 	}
 
 	return result[withdrawal];
+}
+
+void withdraw(int withdrawal, int *first)
+{
+	while (withdrawal)
+	{
+		std::cout << first[withdrawal] << ' ';
+		withdrawal -= first[withdrawal];
+	}
+	std::cout << '\n';
 }
 
 int32_t main()
@@ -48,10 +59,14 @@ int32_t main()
 	int withdrawal;
 	std::cin >> withdrawal;
 
-	int result = minimum_banknotes(denominations, denominations_number, withdrawal);
+	int first[withdrawal + 1];
+
+	int result = minimum_banknotes(denominations, denominations_number, withdrawal, first);
 
 	if (result == INT_MAX) std::cout << "-1\n";
 	else std::cout << result << '\n';
+
+	withdraw(withdrawal, first);
 
 	return 0;
 }
