@@ -6,6 +6,7 @@ Sample implementations of useful algorithms and data structures in C++.
 - [Bitonic Point](algorithms/bitonic_point.cpp)
 - [Caesar Cipher](algorithms/caesar_cipher.cpp)
 - [Change-making problem](algorithms/change-making.cpp)
+- [Eulerian Graph determining](algorithms/eulerian_graph.cpp)
 - [Fast Power Modulo](algorithms/fast_power_modulo.cpp)
 - [Fibonacci Numbers using Matrix](algorithms/fibonacci_on_matrix.cpp)
 - [Graph components number counting (using DFS)](algorithms/graph_components_number_DFS.cpp)
