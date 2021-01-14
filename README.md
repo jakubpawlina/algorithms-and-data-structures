@@ -10,6 +10,7 @@ Sample implementations of useful algorithms and data structures in C++.
 - [Fast Power Modulo](algorithms/fast_power_modulo.cpp)
 - [Fibonacci Numbers using Matrix](algorithms/fibonacci_on_matrix.cpp)
 - [Graph components number counting (using DFS)](algorithms/graph_components_number_DFS.cpp)
+- [Grid paths extrema](algorithms/grid-paths-extrema.cpp)
 - [Huffman Coding](algorithms/huffman-coding.cpp)
 - [Interpolation Search](algorithms/interpolation_search.cpp)
 - [Interval Scheduling Problem](algorithms/interval_scheduling.cpp)
