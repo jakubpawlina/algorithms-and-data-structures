@@ -7,6 +7,7 @@ Sample implementations of useful algorithms and data structures in C++.
 - [Caesar Cipher](algorithms/caesar_cipher.cpp)
 - [Change-making problem](algorithms/change-making.cpp)
 - [Eulerian Graph determining](algorithms/eulerian_graph.cpp)
+- [Extended Euclidean Algorithm (extended GCD)](algorithms/extended-euclidean-algorithm.cpp)
 - [Fast Power Modulo](algorithms/fast_power_modulo.cpp)
 - [Fibonacci Numbers using Matrix](algorithms/fibonacci_on_matrix.cpp)
 - [Graph components number counting (using DFS)](algorithms/graph_components_number_DFS.cpp)
