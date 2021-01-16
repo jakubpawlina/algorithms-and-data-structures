@@ -47,7 +47,7 @@ int gcd_4(int a, int b)
 
 int gcd_5(int a, int b)
 {
-	return b ? gcd_4(b, a % b) : a;
+	return b ? gcd_5(b, a % b) : a;
 }
 
 int gcd_6(int a, int b)
