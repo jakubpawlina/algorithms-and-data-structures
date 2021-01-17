@@ -26,11 +26,13 @@ Sample implementations of useful algorithms and data structures in C++.
 #### Math
 - [Euclidean Algorithm (GCD)](algorithms/euclidean-algorithm.cpp)
 - [Extended Euclidean Algorithm (extended GCD)](algorithms/extended-euclidean-algorithm.cpp)
-- [Fast Power Modulo](algorithms/fast_power_modulo.cpp)
+- [Fast Power Modulo (binary exponentiation)](algorithms/fast_power_modulo.cpp)
 - [Fibonacci Numbers using Matrix](algorithms/fibonacci_on_matrix.cpp)
 - [Linear Diophantine Equation](algorithms/linear-diophantine-equation.cpp)
 - [Multiplying Matrixes](algorithms/multiplying_matrixes.cpp)
 - [Reverse Polish Notation](algorithms/reverse_polish_notation.cpp)
+##### Primes
+- [Easy Primality Test](algorithms/easy-primality-test.cpp)
 - [Sieve of Eratosthenes](algorithms/sieve_of_eratosthenes.cpp)
 
 #### Searching
@@ -44,6 +46,6 @@ Sample implementations of useful algorithms and data structures in C++.
 - [Knuth-Morris-Pratt (KMP)](algorithms/kmp.cpp)
 - [Longest Common Subsequence (LCS)](algorithms/longest_common_subsequence.cpp)
 
-### Data Structures
+## Data Structures
 - [Basic Segment Tree (Sum on interval)](data-structures/interval_sum_ST.cpp)
 - [Find-Union (Disjoint-set)](data-structures/find-union.cpp)
