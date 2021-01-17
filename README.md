@@ -19,6 +19,7 @@ Sample implementations of useful algorithms and data structures in C++.
 - [Kadane's Algorithm (maximum subarray sum)](algorithms/maximum_subarray_sum.cpp)
 - [Knapsack Problem](algorithms/knapsack_problem.cpp)
 - [Knuth-Morris-Pratt (KMP)](algorithms/kmp.cpp)
+- [Linear Diophantine Equation](algorithms/linear-diophantine-equation.cpp)
 - [Longest Common Subsequence (LCS)](algorithms/longest_common_subsequence.cpp)
 - [Lower bound](algorithms/lower_bound.cpp)
 - [Multiplying Matrixes](algorithms/multiplying_matrixes.cpp)
