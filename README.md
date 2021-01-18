@@ -47,5 +47,5 @@ Sample implementations of useful algorithms and data structures in C++.
 - [Longest Common Subsequence (LCS)](algorithms/longest_common_subsequence.cpp)
 
 ## Data Structures
-- [Basic Segment Tree (Sum on interval)](data-structures/interval_sum_ST.cpp)
+- [Basic Segment Tree (Sum on interval)](data-structures/basic-st_sum.cpp)
 - [Find-Union (Disjoint-set)](data-structures/find-union.cpp)
