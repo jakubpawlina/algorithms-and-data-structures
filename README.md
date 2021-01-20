@@ -1,6 +1,8 @@
 # Algorithms and Data Structures
 Sample implementations of useful algorithms and data structures in C++.
 
+<br />
+
 ## Algorithms
 
 #### Dynamic Programming
@@ -8,20 +10,33 @@ Sample implementations of useful algorithms and data structures in C++.
 - [Grid paths extrema](algorithms/grid-paths-extrema.cpp)
 - [Kadane's Algorithm (maximum subarray sum)](algorithms/maximum_subarray_sum.cpp)
 - [Knapsack Problem](algorithms/knapsack_problem.cpp)
+##### Prefix Sum
+- [Prefix Sum 1D](algorithms/prefix-sum-1d.cpp)
+- [Prefix Sum 2D](algorithms/prefix-sum-2d.cpp)
+
+<br />
 
 #### Encryption & Compression
 - [Caesar Cipher](algorithms/caesar_cipher.cpp)
 - [Huffman Coding](algorithms/huffman-coding.cpp)
 
+<br />
+
 #### Geometry
 - [Turn direction check (using Dot Product)](algorithms/turn_direction.cpp)
+
+<br />
 
 #### Graph
 - [Eulerian Graph determining](algorithms/eulerian_graph.cpp)
 - [Graph components number counting (using DFS)](algorithms/graph_components_number_DFS.cpp)
 
+<br />
+
 #### Greedy
 - [Interval Scheduling Problem](algorithms/interval_scheduling.cpp)
+
+<br />
 
 #### Math
 - [Euclidean Algorithm (GCD)](algorithms/euclidean-algorithm.cpp)
@@ -35,6 +50,8 @@ Sample implementations of useful algorithms and data structures in C++.
 - [Easy Primality Test](algorithms/easy-primality-test.cpp)
 - [Sieve of Eratosthenes](algorithms/sieve_of_eratosthenes.cpp)
 
+<br />
+
 #### Searching
 - [Binsearch](algorithms/binsearch_algorithms.cpp)
 - [Bitonic Point](algorithms/bitonic_point.cpp)
@@ -42,9 +59,13 @@ Sample implementations of useful algorithms and data structures in C++.
 - [Lower bound](algorithms/lower_bound.cpp)
 - [Upper bound](algorithms/upper_bound.cpp)
 
+<br />
+
 #### Strings
 - [Knuth-Morris-Pratt (KMP)](algorithms/kmp.cpp)
 - [Longest Common Subsequence (LCS)](algorithms/longest_common_subsequence.cpp)
+
+<br />
 
 ## Data Structures
 - [Basic Segment Tree (Sum on interval)](data-structures/basic-st_sum.cpp)
