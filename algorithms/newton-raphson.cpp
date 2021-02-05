@@ -1,5 +1,5 @@
 // Author: Jakub Pawlina
-// Algorith: Newton-Rapshon square root finding
+// Algorith: Newton-Raphson square root finding
 
 #pragma GCC optimize("O3")
 #include <bits/stdc++.h>

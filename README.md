@@ -44,7 +44,7 @@ Sample implementations of useful algorithms and data structures in C++.
 - [Fast Power Modulo (binary exponentiation)](algorithms/fast_power_modulo.cpp)
 - [Linear Diophantine Equation](algorithms/linear-diophantine-equation.cpp)
 - [Multiplying Matrixes](algorithms/multiplying_matrixes.cpp)
-- [Newton-Rapshon square root finding](algorithms/newton-rapshon.cpp)
+- [Newton-Raphson square root finding](algorithms/newton-raphson.cpp)
 - [Perfect Numbers in range](algorithms/perfect-numbers.cpp)
 - [Reverse Polish Notation](algorithms/reverse_polish_notation.cpp)
 ##### Fibonacci Numbers
