@@ -4,7 +4,7 @@
 #pragma GCC optimize("O3")
 #include <bits/stdc++.h>
 
-double newton_rapshon(double n, const double epsilon)
+double newton_raphson(double n, const double epsilon)
 {
 	double a = 1., b = n;
 	while (fabs(a - b) >= epsilon)
@@ -26,7 +26,7 @@ int32_t main()
 	std::cout.precision(10);
 	for (double i = 0.1; i < 32.1; i += 0.1)
 	{
-		std::cout << "sqrt(" << i << ") = " << newton_rapshon(i, epsilon) << '\n';
+		std::cout << "sqrt(" << i << ") = " << newton_raphson(i, epsilon) << '\n';
 	}
 
 	return 0;
