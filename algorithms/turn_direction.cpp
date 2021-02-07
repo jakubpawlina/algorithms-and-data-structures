@@ -1,5 +1,5 @@
 // Author: Jakub Pawlina
-// Algorithm: Turn Direction using Dot Product
+// Algorithm: Turn Direction using Cross Product
 
 #pragma GCC optimize("O3")
 #include <bits/stdc++.h>
@@ -16,14 +16,14 @@ struct Vector
   double y;
 };
 
-long double dot_product(Vector vector1, Vector vector2)
+long double cross_product(Vector vector1, Vector vector2)
 {
   return vector1.x * vector2.y - vector1.y * vector2.x;
 }
 
 void turn_direction(std::vector <Point> coordinates)
 {
-  for (int i = 2; i < coordinates.size(); ++i)
+  for (size_t i = 2; i < coordinates.size(); ++i)
   {
     Vector vector1, vector2;
 
@@ -33,7 +33,7 @@ void turn_direction(std::vector <Point> coordinates)
     vector2.x = coordinates[i].x - coordinates[i - 1].x;
     vector2.y = coordinates[i].y - coordinates[i - 1].y;
 
-    if (dot_product(vector1, vector2) < 0)
+    if (cross_product(vector1, vector2) < 0)
     {
       std::cout << "RIGHT\n";
     }

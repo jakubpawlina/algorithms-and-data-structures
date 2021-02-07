@@ -17,7 +17,9 @@ Sample implementations of useful algorithms and data structures in C++.
 - [Huffman Coding](algorithms/huffman-coding.cpp)
 
 ### > Geometry
-- [Turn direction check (using Dot Product)](algorithms/turn_direction.cpp)
+#### Cross Product
+- [Clockwise placement of a segment](algorithms/clockwise-segment.cpp)
+- [Turn direction check](algorithms/turn_direction.cpp)
 
 ### > Graph
 - [Eulerian Graph determining](algorithms/eulerian_graph.cpp)
