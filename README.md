@@ -17,6 +17,7 @@ Sample implementations of useful algorithms and data structures in C++.
 - [Huffman Coding](algorithms/huffman-coding.cpp)
 
 ### > Geometry
+- [Convex Hull (using Graham's scan)](algorithms/convex-hull.cpp)
 #### Cross Product
 - [Clockwise placement of a segment](algorithms/clockwise-segment.cpp)
 - [Turn direction check](algorithms/turn_direction.cpp)
