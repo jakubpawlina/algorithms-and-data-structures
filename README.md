@@ -18,6 +18,7 @@ Sample implementations of useful algorithms and data structures in C++.
 
 ### > Geometry
 - [Convex Hull (using Graham's scan)](algorithms/convex-hull.cpp)
+- [Shoelace Formula (polygon area)](algorithms/shoelace-formula.cpp)
 #### Cross Product
 - [Clockwise placement of a segment](algorithms/clockwise-segment.cpp)
 - [Turn direction check](algorithms/turn_direction.cpp)
