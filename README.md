@@ -47,6 +47,7 @@ Sample implementations of useful algorithms and data structures in C++.
 #### Numerical analysis
 - [Newton-Raphson square root finding](algorithms/newton-raphson.cpp)
 - [Newton-Raphson nth root finding](algorithms/newton-raphson-kth.cpp)
+- [Polynomial Evaluation (using Horner)](algorithms/polynomial-evaluation.cpp)
 
 #### Primes
 - [Easy Primality Test](algorithms/easy-primality-test.cpp)
