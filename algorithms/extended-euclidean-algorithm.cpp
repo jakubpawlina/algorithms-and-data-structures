@@ -19,6 +19,13 @@ int ext_gcd(int a, int b, int &x, int &y)
 	return gcd;
 }
 
+std::pair <int, int> ext_gcd_2(int a, int b)
+{
+	if (b == 0) return {1, 0};
+	std::pair <int, int> p = ext_gcd_2(b, a % b);
+	return (std::pair <int, int> {p.second, p.first - (a / b) * p.second});
+}
+
 int32_t main()
 {
 	std::ios_base::sync_with_stdio(false);
